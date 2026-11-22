@@ -1,16 +1,20 @@
-### Hi, I'm Chetan Channa
+# Chetan Channa
 
-Experienced Principal PM at Microsoft, deliberately rebuilding myself as an AI-native PM — not by reading about agents, but by shipping with them.
+I’m a Principal PM at Microsoft. In my personal projects, I build AI tools and share the product decisions behind them, from how an interview coach gives feedback to when a document classifier should defer to a person.
 
-**What that looks like in practice**
+## Featured projects
 
-I've written a growing library of agent skills — packaged, config-driven workflows for coaching, strategy work, presentations, and personal automation. The first one going public: **ai-pm-course**, an AI PM interview-prep coaching course that runs as an agent skill — chapter → quiz → graded drills → progress tracking, from a 243-question bank and 34-chapter curriculum, built so anyone can run it with their own question bank. *Coming soon.*
+| Project | What I built and why |
+| --- | --- |
+| **[SPAR](https://github.com/HelloIamChetan/spar-ai-pm-course)** | An AI PM practice coach with 243 questions and 34 chapters. Each drill turns rubric feedback into a record learners can revisit. |
+| **[Phi-4 document classifier](https://github.com/HelloIamChetan/phi4-lora-document-classifier)** | A local model that suggests document categories and retention scores. Held-out results informed the decision to route suggestions to human review. |
+| **[SARGAM](https://github.com/HelloIamChetan/sargam-psr-sx)** | A skill that produces printable sheets for Yamaha arranger keyboards and verifies generated preset names against the factory inventory. |
 
-I also build products with coding agents (Claude Code, Codex) doing the implementation while I own product boundaries, decisions, and approvals. Every repo carries an `AGENTS.md` with operating rules and approval gates, so any agent can resume the work cold. The bet: the PMs who matter next are the ones who can direct AI systems, not just spec for humans.
+I work with coding agents on implementation and own the product scope, tradeoffs, and approvals.
 
-**Products** *(in progress)*
+## In progress
 
-- **Retirement Planner** — Goal-based financial planning for Indian households. Deterministic Python computes every number; the LLM only explains, proposes, and challenges — it never produces a figure the plan depends on.
-- **Entry Desk** — A human-gated decision desk for NSE equities. A versioned rulebook maps frozen metric snapshots to decisions; guardrails can force abstention. Adopted rules, not forecasts.
+- **Retirement Planner** — Goal-based financial planning for Indian households. Python computes the projections and the model explains the results.
+- **Entry Desk** — A human-gated decision desk for NSE equities. A versioned rulebook turns metric snapshots into decisions and can abstain.
 
-**Find me** — [LinkedIn](https://www.linkedin.com/in/chetanchanna)
+[LinkedIn](https://www.linkedin.com/in/chetanchanna) · [Medium](https://medium.com/@chetanchanna)
